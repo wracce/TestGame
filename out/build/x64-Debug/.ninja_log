@@ -1,0 +1,21 @@
+# ninja log v5
+8	1363	6590185331201436	external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	d301a806a04d550b
+3	1381	6590185331061822	external/glfw/src/CMakeFiles/glfw.dir/context.c.obj	69a70150b4b3bad1
+1391	2214	6590185339778514	external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	517fb2b650e08523
+6	1386	6590185331301177	external/glfw/src/CMakeFiles/glfw.dir/input.c.obj	f35435279ee4ab3f
+14	1395	6590185331031892	external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	682e549bd2053764
+1377	2205	6590185339279842	external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	ea06358ca5e9ffc6
+11	1390	6590185331001981	external/glfw/src/CMakeFiles/glfw.dir/init.c.obj	cb5c5ae27e8e8737
+1	2210	6590185339489277	CMakeFiles/TestGame.dir/src/main.cpp.obj	4ecbd6ab7a41c7f4
+1386	2291	6590185340586350	external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	4a0eaed8b770ad20
+1395	2306	6590185340676107	external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	5392205a796b3ec8
+1382	2347	6590185340895529	external/glfw/src/CMakeFiles/glfw.dir/window.c.obj	ecea891612aee834
+2215	2991	6590185347398135	external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	559a7867aed5cf33
+3573	3901	6590185356656922	TestGame.exe	65a029684cdf2a41
+2205	2998	6590185347557721	external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	8c80cefed09d22e9
+2211	3117	6590185348614881	external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	9370569ef8b9801
+2292	3147	6590185349203313	external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	97c6f30c4f02c65e
+2306	3148	6590185349213279	external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	36e633d6ea19e86
+3149	3225	6590185349961285	external/glfw/src/glfw3.lib	304a11a2d1bceb8f
+2348	3531	6590185353062974	external/glad/CMakeFiles/glad.dir/src/glad.c.obj	db137bdf5919c578
+3532	3572	6590185353491853	external/glad/glad.lib	54450f0a5a6bb188

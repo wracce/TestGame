@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Glad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\src\;CMake Files\external\glad\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Boss/CLionProjects/TestGame/external/glad/include"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Boss/CLionProjects/TestGame/external/glad/include"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\mingw-w64\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Boss/CLionProjects/TestGame/cmake-build-debug/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glad/include/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Boss/CLionProjects/TestGame/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
