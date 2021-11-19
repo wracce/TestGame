@@ -1,4 +1,4 @@
-#include <glad/glad.h>
+#include <glad/gl.h>
 #include <GLFW/glfw3.h>
 
 #include <iostream>
@@ -80,7 +80,7 @@ int main(void)
     /* Make the window's context current */
     glfwMakeContextCurrent(pWindow);
 
-    if (!gladLoadGL())
+    if (gladLoadGL(glfwGetProcAddress) !=0)
     {
         std::cout << "Can't load GLAD!" << std::endl;
     }
