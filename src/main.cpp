@@ -80,7 +80,7 @@ int main(void)
     /* Make the window's context current */
     glfwMakeContextCurrent(pWindow);
 
-    if (gladLoadGL(glfwGetProcAddress) !=0)
+    if (gladLoadGL(glfwGetProcAddress) ==0)
     {
         std::cout << "Can't load GLAD!" << std::endl;
     }
